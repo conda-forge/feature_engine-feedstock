@@ -1,5 +1,5 @@
 {% set name = "feature_engine" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a7f56abf92946f76c6855d026fb43c3efca5c1285084f7e87cb73adfdee0c189
+  sha256: c57450bd8c7726ed8898d1ff4de3158b643c58bf3722b45f4a9484fad523f022
 
 build:
   noarch: python
