@@ -1,7 +1,7 @@
 About feature_engine
 ====================
 
-Home: https://github.com/solegalli/feature_engine
+Home: https://github.com/feature-engine/feature_engine
 
 Package license: BSD-3-Clause
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/feature_engine-
 
 Summary: Feature engineering package with Scikit-learn's fit transform functionality
 
-Documentation: http://feature-engine.readthedocs.io/
+Documentation: https://feature-engine.trainindata.com
 
 Current build status
 ====================

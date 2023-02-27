@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -31,12 +31,12 @@ test:
     - feature_engine
 
 about:
-  home: https://github.com/solegalli/feature_engine
+  home: https://github.com/feature-engine/feature_engine
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.md
-  summary: Feature engineering package with Scikit-learn's fit transform functionality
-  doc_url: http://feature-engine.readthedocs.io/
+  summary: Feature engineering and selection package with Scikit-learn's fit and transform functionality
+  doc_url: https://feature-engine.trainindata.com
 
 extra:
   recipe-maintainers:
