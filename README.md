@@ -1,13 +1,13 @@
-About feature_engine
-====================
+About feature_engine-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/feature_engine-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/feature-engine/feature_engine
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/feature_engine-feedstock/blob/main/LICENSE.txt)
-
-Summary: Feature engineering package with Scikit-learn's fit transform functionality
+Summary: Feature engineering and selection package with Scikit-learn's fit and transform functionality
 
 Documentation: https://feature-engine.trainindata.com
 
