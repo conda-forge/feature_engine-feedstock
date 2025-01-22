@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: d51d3197b9245ec1c286f6562111788c1be927ba4f700d2064ea94f623acab01
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - numpy >=1.18.2
     - pandas >=1.0.3
     - scikit-learn >=0.22.2
@@ -27,6 +27,8 @@ requirements:
     - statsmodels >=0.11.1
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - feature_engine
 
