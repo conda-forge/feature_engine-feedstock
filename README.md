@@ -29,7 +29,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-feature_engine-green.svg)](https://anaconda.org/conda-forge/feature_engine) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/feature_engine.svg)](https://anaconda.org/conda-forge/feature_engine) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/feature_engine.svg)](https://anaconda.org/conda-forge/feature_engine) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/feature_engine.svg)](https://anaconda.org/conda-forge/feature_engine) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-feature__engine-green.svg)](https://anaconda.org/conda-forge/feature_engine) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/feature_engine.svg)](https://anaconda.org/conda-forge/feature_engine) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/feature_engine.svg)](https://anaconda.org/conda-forge/feature_engine) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/feature_engine.svg)](https://anaconda.org/conda-forge/feature_engine) |
 
 Installing feature_engine
 =========================
